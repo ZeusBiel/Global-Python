@@ -1,0 +1,402 @@
+{
+    "clinicaAlpha": {
+        "endereco": "Rua A, 123, Bairro Centro, Cidade A",
+        "contato": 
+        {
+            "telefone": "(11) 1234-5678",
+            "email": "clinicaalpha@example.com"
+        },
+        "horarios_funcionamento": {
+            "segunda": "08:00 - 18:00",
+            "terca": "08:00 - 18:00",
+            "quarta": "08:00 - 18:00",
+            "quinta": "08:00 - 18:00",
+            "sexta": "08:00 - 17:00"
+        },
+        "IDclientes": {
+            "24563461": {
+                "exame": "vitaminaD",
+                "finalizado": ["18:17", "16/11/2023"],
+                "entrega": ["19:32", "18/11/2023"],
+                "resultados": {
+                    "vitaminaD": {
+                        "valor": 30.5,
+                        "unidade": "ng/mL",
+                        "referencia": {
+                            "min": 20,
+                            "max": 50
+                        }
+                    }
+                },
+                "observacoes": "O paciente foi aconselhado a aumentar a exposição ao sol."
+            },
+            "34982715": {
+                "exame": "hemograma",
+                "finalizado": ["14:45", "17/11/2023"],
+                "entrega": ["16:22", "19/11/2023"],
+                "resultados": {
+                    "hemacias": {
+                        "valor": 5.2,
+                        "unidade": "milhoes/uL",
+                        "referencia": {
+                            "min": 4.5,
+                            "max": 5.5
+                        }
+                    },
+                    "leucocitos": {
+                        "valor": 7000,
+                        "unidade": "celulas/uL",
+                        "referencia": {
+                            "min": 4000,
+                            "max": 11000
+                        }
+                    },
+                    "plaquetas": {
+                        "valor": 250000,
+                        "unidade": "/uL",
+                        "referencia": {
+                            "min": 150000,
+                            "max": 450000
+                        }
+                    }
+                },
+                "observacoes": "Resultados dentro da faixa normal."
+            },
+            "98765432": {
+                "exame": "glicose",
+                "finalizado": ["10:05", "18/11/2023"],
+                "entrega": ["11:20", "20/11/2023"],
+                "resultados": {
+                    "glicoseJejum": {
+                        "valor": 85,
+                        "unidade": "mg/dL",
+                        "referencia": {
+                            "min": 70,
+                            "max": 100
+                        }
+                    }
+                },
+                "observacoes": "Níveis de glicose normais."
+            },
+            "56231478": {
+                "exame": "pressaoArterial",
+                "finalizado": ["15:30", "16/11/2023"],
+                "entrega": ["16:45", "18/11/2023"],
+                "resultados": {
+                    "sistolica": {
+                        "valor": 118,
+                        "unidade": "mmHg",
+                        "referencia": {
+                            "min": 90,
+                            "max": 120
+                        }
+                    },
+                    "diastolica": {
+                        "valor": 78,
+                        "unidade": "mmHg",
+                        "referencia": {
+                            "min": 60,
+                            "max": 80
+                        }
+                    }
+                },
+                "observacoes": "Pressão arterial dentro da faixa normal."
+            }
+        }
+    },
+    "clinicaBeta": {  
+        "endereco": "Avenida X, 456, Bairro Sul, Cidade B",
+        "contato": 
+        {
+            "telefone": "(22) 9876-5432",
+            "email": "clinicabeta@example.com"
+        },
+        "horarios_funcionamento": {
+            "segunda": "09:00 - 19:00",
+            "terca": "09:00 - 19:00",
+            "quarta": "09:00 - 19:00",
+            "quinta": "09:00 - 19:00",
+            "sexta": "09:00 - 18:00"
+        },
+        "IDclientes": {
+            "97864532": {
+                "exame": "colesterol",
+                "finalizado": ["11:20", "15/11/2023"],
+                "entrega": ["12:45", "17/11/2023"],
+                "resultados": {
+                    "colesterolTotal": {
+                        "valor": 180,
+                        "unidade": "mg/dL",
+                        "referencia": {
+                            "min": 125,
+                            "max": 200
+                        }
+                    },
+                    "hdl": {
+                        "valor": 50,
+                        "unidade": "mg/dL",
+                        "referencia": {
+                            "min": 40,
+                            "max": 60
+                        }
+                    },
+                    "ldl": {
+                        "valor": 120,
+                        "unidade": "mg/dL",
+                        "referencia": {
+                            "min": 70,
+                            "max": 130
+                        }
+                    }
+                },
+                "observacoes": "Níveis de colesterol dentro da faixa recomendada."
+            },
+            "78541236": {
+                "exame": "hemograma",
+                "finalizado": ["09:15", "19/11/2023"],
+                "entrega": ["10:40", "21/11/2023"],
+                "resultados": {
+                    "hemacias": {
+                        "valor": 5.5,
+                        "unidade": "milhoes/uL",
+                        "referencia": {
+                            "min": 4.5,
+                            "max": 5.5
+                        }
+                    },
+                    "leucocitos": {
+                        "valor": 8000,
+                        "unidade": "celulas/uL",
+                        "referencia": {
+                            "min": 4000,
+                            "max": 11000
+                        }
+                    },
+                    "plaquetas": {
+                        "valor": 270000,
+                        "unidade": "/uL",
+                        "referencia": {
+                            "min": 150000,
+                            "max": 450000
+                        }
+                    }
+                },
+                "observacoes": "Resultados ligeiramente elevados, monitorar."
+            },
+            "65412378": {
+                "exame": "glicose",
+                "finalizado": ["14:50", "18/11/2023"],
+                "entrega": ["16:05", "20/11/2023"],
+                "resultados": {
+                    "glicoseJejum": {
+                        "valor": 105,
+                        "unidade": "mg/dL",
+                        "referencia": {
+                            "min": 70,
+                            "max": 100
+                        }
+                    }
+                },
+                "observacoes": "Níveis de glicose levemente elevados, orientar sobre dieta."
+            }
+        }
+    },
+    "clinicaGamma": {
+        "endereco": "Rua Z, 789, Bairro Norte, Cidade C",
+        "contato": 
+        {
+            "telefone": "(33) 4567-8901",
+            "email": "clinicagamma@example.com"
+        },
+        "horarios_funcionamento": {
+            "segunda": "07:30 - 17:30",
+            "terca": "07:30 - 17:30",
+            "quarta": "07:30 - 17:30",
+            "quinta": "07:30 - 17:30",
+            "sexta": "07:30 - 16:30"
+        },
+        "IDclientes": {
+            "56321478": {
+                "exame": "glicose",
+                "finalizado": ["09:35", "14/11/2023"],
+                "entrega": ["10:55", "16/11/2023"],
+                "resultados": {
+                    "glicoseJejum": {
+                        "valor": 90,
+                        "unidade": "mg/dL",
+                        "referencia": {
+                            "min": 70,
+                            "max": 100
+                        }
+                    }
+                },
+                "observacoes": "Níveis de glicose normais."
+            },
+            "78451236": {
+                "exame": "pressaoArterial",
+                "finalizado": ["16:10", "13/11/2023"],
+                "entrega": ["17:25", "15/11/2023"],
+                "resultados": {
+                    "sistolica": {
+                        "valor": 120,
+                        "unidade": "mmHg",
+                        "referencia": {
+                            "min": 90,
+                            "max": 120
+                        }
+                    },
+                    "diastolica": {
+                        "valor": 80,
+                        "unidade": "mmHg",
+                        "referencia": {
+                            "min": 60,
+                            "max": 80
+                        }
+                    }
+                },
+                "observacoes": "Pressão arterial dentro da faixa normal."
+            },
+            "89562314": {
+                "exame": "hemograma",
+                "finalizado": ["11:30", "17/11/2023"],
+                "entrega": ["12:55", "19/11/2023"],
+                "resultados": {
+                    "hemacias": {
+                        "valor": 5.0,
+                        "unidade": "milhoes/uL",
+                        "referencia": {
+                            "min": 4.5,
+                            "max": 5.5
+                        }
+                    },
+                    "leucocitos": {
+                        "valor": 7500,
+                        "unidade": "celulas/uL",
+                        "referencia": {
+                            "min": 4000,
+                            "max": 11000
+                        }
+                    },
+                    "plaquetas": {
+                        "valor": 240000,
+                        "unidade": "/uL",
+                        "referencia": {
+                            "min": 150000,
+                            "max": 450000
+                        }
+                    }
+                },
+                "observacoes": "Resultados normais."
+            },
+            "74589632": {
+                "exame": "colesterol",
+                "finalizado": ["14:15", "16/11/2023"],
+                "entrega": ["15:30", "18/11/2023"],
+                "resultados": {
+                    "colesterolTotal": {
+                        "valor": 190,
+                        "unidade": "mg/dL",
+                        "referencia": {
+                            "min": 125,
+                            "max": 200
+                        }
+                    },
+                    "hdl": {
+                        "valor": 45,
+                        "unidade": "mg/dL",
+                        "referencia": {
+                            "min": 40,
+                            "max": 60
+                        }
+                    },
+                    "ldl": {
+                        "valor": 130,
+                        "unidade": "mg/dL",
+                        "referencia": {
+                            "min": 70,
+                            "max": 130
+                        }
+                    }
+                },
+                "observacoes": "Níveis de colesterol ligeiramente elevados."
+            }
+        }
+    },
+    "clinicaDelta": {
+        "endereco": "Avenida W, 987, Bairro Oeste, Cidade D",
+        "contato": 
+        {
+            "telefone": "(44) 7654-3210",
+            "email": "clinicadelta@example.com"
+        },
+        "horarios_funcionamento": {
+            "segunda": "08:30 - 18:30",
+            "terca": "08:30 - 18:30",
+            "quarta": "08:30 - 18:30",
+            "quinta": "08:30 - 18:30",
+            "sexta": "08:30 - 17:30"
+        },
+        "IDclientes": {
+            "36987412": {
+                "exame": "raioX",
+                "finalizado": ["08:50", "20/11/2023"],
+                "entrega": ["10:15", "22/11/2023"],
+                "resultados": {
+                    "imagem": {
+                        "link": "https://exemplo.com/imagem_raioX.png"
+                    }
+                },
+                "observacoes": "Raio-X do tórax para avaliação pulmonar."
+            },
+            "25896347": {
+                "exame": "ressonanciaMagnetica",
+                "finalizado": ["13:20", "21/11/2023"],
+                "entrega": ["15:00", "23/11/2023"],
+                "resultados": {
+                    "imagem": {
+                        "link": "https://exemplo.com/imagem_ressonancia.png"
+                    }
+                },
+                "observacoes": "Ressonância magnética do cérebro para avaliação neurológica."
+            },
+            "14785236": {
+                "exame": "tomografiaComputadorizada",
+                "finalizado": ["16:45", "22/11/2023"],
+                "entrega": ["18:30", "24/11/2023"],
+                "resultados": {
+                    "imagem": {
+                        "link": "https://exemplo.com/imagem_tomografia.png"
+                    }
+                },
+                "observacoes": "Tomografia computadorizada do abdômen para avaliação abdominal."
+            }
+        }
+    },
+    "clinicaNaoEntregue": 
+        {
+        "endereco": "Rua B, 456, Bairro Novo, Cidade E",
+        "contato": {
+            "telefone": "(55) 1234-5678",
+            "email": "novaclinica@example.com"
+        },
+        "horarios_funcionamento": {
+            "segunda": "09:00 - 18:00",
+            "terca": "09:00 - 18:00",
+            "quarta": "09:00 - 18:00",
+            "quinta": "09:00 - 18:00",
+            "sexta": "09:00 - 17:00"
+        },
+        "IDclientes": {
+            "45678901": {
+                "exame": "ressonanciaMagnetica",
+                "finalizado": ["10:30", "22/11/2023"],
+                "observacoes": "Ressonância magnética da coluna para avaliação ortopédica."
+            },
+            "12345678": {
+                "exame": "tomografiaComputadorizada",
+                "finalizado": ["14:15", "23/11/2023"],
+                "observacoes": "Tomografia computadorizada do crânio para avaliação neurológica."
+            }
+        }
+    }
+}
